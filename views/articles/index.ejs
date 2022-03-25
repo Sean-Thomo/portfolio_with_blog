@@ -129,6 +129,8 @@
             <input type="text" class="form-control mb-2" placeholder="Name" required>
             <label for="email">Email</label>
             <input type="email" class="form-control mb-2" placeholder="Email" required>
+            <input type="hidden" name="_captcha" value="false">
+            <input type="hidden" name="_next" value="http://localhost:3000/thankyou">
             <label for="message" class="mb-2">Message</label>
             <textarea name="message" class="form-control mb-4" placeholder="Type your message here..." id="message" cols="0" rows="3" required></textarea>
             <button class="btn btn-blue" id="send" type="submit">Send</button>

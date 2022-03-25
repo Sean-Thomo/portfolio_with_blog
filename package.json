@@ -1,30 +1,30 @@
 {
-  "name": "portfolio_with_blog_",
-  "version": "1.0.0",
-  "description": "New Portfolio Site with blogging feature",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+ssh://git@github.com/Sean-Thomo/portfolio_with_blog.git"
-  },
-  "author": "Siphesihle Thomo",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/Sean-Thomo/portfolio_with_blog/issues"
-  },
-  "homepage": "https://github.com/Sean-Thomo/portfolio_with_blog#readme",
-  "dependencies": {
-    "dompurify": "^2.3.6",
-    "dotenv": "^16.0.0",
-    "ejs": "^3.1.6",
-    "express": "^4.17.3",
-    "jsdom": "^19.0.0",
-    "marked": "^4.0.12",
-    "method-override": "^3.0.0",
-    "mongoose": "^6.2.8",
-    "slugify": "^1.6.5"
-  }
+	"name": "portfolio_with_blog_",
+	"version": "1.0.0",
+	"description": "New Portfolio Site with blogging feature",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+ssh://git@github.com/Sean-Thomo/portfolio_with_blog.git"
+	},
+	"author": "Siphesihle Thomo",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/Sean-Thomo/portfolio_with_blog/issues"
+	},
+	"homepage": "https://github.com/Sean-Thomo/portfolio_with_blog#readme",
+	"dependencies": {
+		"dompurify": "^2.3.6",
+		"dotenv": "^16.0.0",
+		"ejs": "^3.1.6",
+		"express": "^4.17.3",
+		"jsdom": "^19.0.0",
+		"marked": "^4.0.12",
+		"method-override": "^3.0.0",
+		"mongoose": "^6.2.8",
+		"slugify": "^1.6.5"
+	}
 }

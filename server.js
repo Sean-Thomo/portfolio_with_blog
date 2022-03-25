@@ -1,18 +1,14 @@
 const express = require("express");
 const mongoose = require("mongoose");
 const Article = require("./models/article");
-const articleRouter = require("./routes/articles");
+const articleRouter = require("./routes/articles.ejs");
 const methodOverride = require("method-override");
 const dotenv = require("dotenv");
 const app = express();
 
 dotenv.config();
 
-mongoose.connect(process.env.DB_CONNECTION_STRING, {
-	useNewUrlParser: true,
-	useUnifiedTopology: true,
-	useCreateIndex: true,
-});
+mongoose.connect(process.env.DB_CONNECTION_STRING);
 
 app.use(express.static(__dirname + "/public"));
 app.set("view engine", "ejs");
