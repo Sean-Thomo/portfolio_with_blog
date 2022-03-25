@@ -1,0 +1,142 @@
+<%- include ("_header") %>
+
+<section class="home-section align-items-center active" id="home">
+  <div class="container">
+    <div class="row align-items-center">
+      <div class="home-text">
+
+        <div class="wrapper">
+          <div class="static-text"><p>Hello, I&rsquo;m</p></div>
+          <ul class="dynamic-text">
+            <li><span>Siphesihle Thomo</span></li>
+          </ul>
+        </div>
+
+        <p>Junior Full-Stack Web Developer.</p>
+        <a href="#contact" class="btn btn-blue">Contact</a>
+        <a href="#portfolio" class="btn btn-outline btn-shadow">Portfolio</a>
+      </div>
+      <div class="home-img">
+        <div id="title-img" class="img-box">
+          <img src="img/profile_pic.jpg" alt="Profile Image" srcset="">
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div><img class="wave" src="img/wave.svg" alt="Wave"></div>
+
+<section id="portfolio" class="portfolio container-fluid"">
+  <h1>Portfolio</h1>
+  <p>Here you'll find some of my previous work.</p>
+  <div class="card-group">
+
+    <div class="col-lg-4 col-md-6 ">
+      <div class="work">
+        <img src="img/netflix_clone.png" alt="Netflix Clone">
+        <h5><b>Netflix Clone</b></h5>
+        <p>Netflix clone to solidify react and API skills.</p>
+        <a class="site btn btn-outline" href="https://netflix-clone-5b50c.web.app/" target="_blank">Visit Site</a>
+      </div>
+    </div>
+
+    <div class="col-lg-4 col-md-6 ">
+      <div class="work">
+        <img src="img/keeper_clone.png" alt="Google's Keep App">
+        <h5><b>Google Keep Clone</b></h5>
+        <p>To-Do lists are classic, but over done google keep was the next best thing.</p>
+        <a class="site btn btn-outline" href="https://keeper-clone-7469f.web.app/" target="_blank">Visit Site</a>
+      </div>
+    </div>
+
+    <div class="col-lg-4 col-md-6 ">
+      <div class="work">
+        <img src="img/secrets_login.png" alt="User Auth App">
+        <h5><b>Secrets App</b></h5>
+        <p>The secrests app was built just for user authentication and security.</p>
+        <a class="site btn btn-outline" href="https://github.com/Sean-Thomo/secrets_web_app" target="_blank">View Code</a>
+      </div>
+    </div>
+
+    <div class="col-lg-4 col-md-6">
+      <div class="work">
+        <img src="img/elangwane.png" alt="High School Website">
+        <h5><b>Elangwane Website</b></h5>
+        <p>High School Website.</p>
+        <a class="site btn btn-outline" href="https://sean-thomo.github.io/elangwanemsta.io/" target="_blank">Visit Site</a>
+      </div>
+    </div>
+
+    <div class="col-lg-4 col-md-6">
+      <div class="work">
+        <img src="img/tindog.png" alt="Tinder For Dogs">
+        <h5><b>TinDog</b></h5>
+        <p>Tinder, but for dogs app download site.</p>
+        <a class="site btn btn-outline" href="https://sean-thomo.github.io/tindog_web-course/" target="_blank">Visit Site</a>
+      </div>
+    </div>
+
+    <div class="col-lg-4 col-md-6 ">
+      <div class="work">
+        <img src="img/simon_game.png" alt="Simon Game">
+        <h5><b>Simon Game</b></h5>
+        <p>Simon is an electronic game of memory skill.</p>
+        <a class="site btn btn-outline" href="https://sean-thomo.github.io/Simon_Game/" target="_blank">Play.</a>
+      </div>
+    </div>
+
+    <div class="col-lg-4 col-md-6 ">
+      <div class="work">
+        <img src="img/dice_game.png" alt="Dice Game">
+        <h5><b>Dice Game</b></h5>
+        <p>Want to settle a little dispute?</p>
+        <a class="site btn btn-outline" href="https://sean-thomo.github.io/Dice-Game/" target="_blank">Play.</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div><img class="wave" src="img/wave.svg" alt="Wave"></div>
+
+<div class="container">
+  <div class="row">
+    <div class="col-lg-6">
+      <div class="socials">
+        <div class="">
+          <div class="row">
+            <div class="col-lg-4">
+              <a href="https://www.linkedin.com/in/siphesihle-thomo-8b06511a4/" target="_blank"><i class="fa fa-linkedin fa-2x" aria-hidden="true"></i></a>
+              <p>LinkedIn</p>
+            </div>
+            <div class="col-lg-4">
+              <a href="https://twitter.com/SeanThomo3" target="_blank"><i class="fa fa-twitter fa-2x" aria-hidden="true"></i></a>
+              <p>Twitter</p>
+            </div>
+            <div class="col-lg-4">
+              <a href="https://github.com/Sean-Thomo" target="_blank"><i class="fa fa-github fa-2x" aria-hidden="true"></i></a>
+              <p>Github</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-lg-6">
+      <form class="form" action="https://formsubmit.co/seansthomo@gmail.com " method="post">
+        <div class="form-row">
+          <div class="form-input">
+            <label for="name">Name</label>
+            <input type="text" class="form-control mb-2" placeholder="Name" required>
+            <label for="email">Email</label>
+            <input type="email" class="form-control mb-2" placeholder="Email" required>
+            <label for="message" class="mb-2">Message</label>
+            <textarea name="message" class="form-control mb-4" placeholder="Type your message here..." id="message" cols="0" rows="3" required></textarea>
+            <button class="btn btn-blue" id="send" type="submit">Send</button>
+          </div>
+        </div>
+      </form>
+    </div>
+  </div>
+</div>
+
+<%- include ("_footer") %>
